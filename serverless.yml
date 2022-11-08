@@ -15,7 +15,7 @@ package:
 functions:
   theLambda:
     name: test-lambda
-    handler: calculator.lambda_handler
+    handler: Calculator.lambda_handler
     description: test-lambda
     timeout: 5 # seconds
     memorySize: 128 # mb
